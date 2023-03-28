@@ -21,11 +21,12 @@ const Testimonials = ({ honorRef }) => {
       >
         <Box
           p="20px"
-          w={{ base: "100%", md: "50%", lg: "30%" }}
+          w={{ base: "100%", sm: "450px", md: "450px", lg: "30%" }}
           bg="black"
           mb={{ base: "50px", lg: "0px" }}
           borderRadius="10px"
-          mr={{ base: "0px", md: "30px", lg: "50px" }}
+          mr={{ base: "auto", sm: "auto", md: "auto", lg: "50px" }}
+          ml={{ base: "auto", sm: "auto", md: "auto", lg: "0px" }}
         >
           <Flex justifyContent="space-between">
             <Icon as={IoMdQuote} color="#4da6ff" />
@@ -52,9 +53,11 @@ const Testimonials = ({ honorRef }) => {
         </Box>
         <Box
           p="20px"
-          w={{ base: "100%", md: "50%", lg: "30%" }}
+          w={{ base: "100%", sm: "450px", md: "450px", lg: "30%" }}
           bg="black"
           mb={{ base: "50px", lg: "0px" }}
+          mr={{ base: "auto", sm: "auto", md: "auto", lg: "0px" }}
+          ml={{ base: "auto", sm: "auto", md: "auto", lg: "0px" }}
           borderRadius="10px"
         >
           <Flex justifyContent="space-between">
