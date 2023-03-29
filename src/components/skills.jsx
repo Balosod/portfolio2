@@ -25,98 +25,98 @@ const Skills = ({ skillRef }) => {
         Skills
       </Text>
       <Text fontSize="sm" color="#e6e6e6">
-        Here are some of my skills1234
+        Here are some of my skills12345
       </Text>
-      <Box pr="8px">
-        <Provider>
-          <Box mb="30px">
-            <RightButton
-              float="right"
-              w="5px"
-              h="30px"
-              ml="10px"
-              borderRadius="100%"
-              customIcon={<AiOutlineArrowRight />}
-              bgColor="black"
-              textColor="white"
-              _hover={{ bgColor: "black", textColor: "white" }}
-            />
 
-            <LeftButton
-              float="right"
-              w="5px"
-              h="30px"
-              ml="10px"
-              borderRadius="100%"
-              customIcon={<AiOutlineArrowLeft />}
-              bgColor="black"
-              textColor="white"
-              _hover={{ bgColor: "black", textColor: "white" }}
-            />
+      <Provider>
+        <Box mb="30px">
+          <RightButton
+            float="right"
+            w="5px"
+            h="30px"
+            ml="10px"
+            borderRadius="100%"
+            customIcon={<AiOutlineArrowRight />}
+            bgColor="black"
+            textColor="white"
+            _hover={{ bgColor: "black", textColor: "white" }}
+          />
+
+          <LeftButton
+            float="right"
+            w="5px"
+            h="30px"
+            ml="10px"
+            borderRadius="100%"
+            customIcon={<AiOutlineArrowLeft />}
+            bgColor="black"
+            textColor="white"
+            _hover={{ bgColor: "black", textColor: "white" }}
+          />
+        </Box>
+
+        <Carousel gap={5}>
+          <Box
+            borderRadius="10px"
+            pt="40px"
+            bg="#262626"
+            w="400px"
+            h="200px"
+            mr={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
+            ml={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
+          >
+            <Center>
+              <Image src={pythonlogo} w="50px" />
+            </Center>
+
+            <Box textAlign="center">
+              <Text fontSize="3xl" color="white">
+                Python
+              </Text>
+              <Text color="white">3 years experience</Text>
+            </Box>
           </Box>
+          <Box
+            borderRadius="10px"
+            pt="40px"
+            bg="#262626"
+            w="400px"
+            h="200px"
+            mr={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
+            ml={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
+          >
+            <Center>
+              <Image src={djangologo} w="50px" />
+            </Center>
 
-          <Carousel gap={50}>
-            <Box
-              borderRadius="10px"
-              pt="40px"
-              bg="#262626"
-              w="300px"
-              h="200px"
-              mr={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
-              ml={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
-            >
-              <Center>
-                <Image src={pythonlogo} w="50px" />
-              </Center>
-
-              <Box textAlign="center">
-                <Text fontSize="3xl" color="white">
-                  Python
-                </Text>
-                <Text color="white">3 years experience</Text>
-              </Box>
+            <Box textAlign="center">
+              <Text fontSize="3xl" color="white">
+                Django
+              </Text>
+              <Text color="white">3 years experience</Text>
             </Box>
-            <Box
-              borderRadius="10px"
-              pt="40px"
-              bg="#262626"
-              w="300px"
-              h="200px"
-              mr={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
-              ml={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
-            >
-              <Center>
-                <Image src={djangologo} w="50px" />
-              </Center>
+          </Box>
+          <Box
+            borderRadius="10px"
+            pt="40px"
+            bg="#262626"
+            w="400px"
+            h="200px"
+            mr={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
+            ml={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
+          >
+            <Center>
+              <Image src={javascriptlogo} w="50px" />
+            </Center>
 
-              <Box textAlign="center">
-                <Text fontSize="3xl" color="white">
-                  Django
-                </Text>
-                <Text color="white">3 years experience</Text>
-              </Box>
+            <Box textAlign="center">
+              <Text fontSize="3xl" color="white">
+                JavaScript
+              </Text>
+              <Text color="white">3 years experience</Text>
             </Box>
-            <Box
-              borderRadius="10px"
-              pt="40px"
-              bg="#262626"
-              w="300px"
-              h="200px"
-              mr={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
-              ml={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
-            >
-              <Center>
-                <Image src={javascriptlogo} w="50px" />
-              </Center>
-
-              <Box textAlign="center">
-                <Text fontSize="3xl" color="white">
-                  JavaScript
-                </Text>
-                <Text color="white">3 years experience</Text>
-              </Box>
-            </Box>
-            {/* <Box borderRadius="10px" pt="40px" bg="#262626" w="500px" h="200px"
+          </Box>
+          {/* <Box borderRadius="10px" pt="40px" bg="#262626" w="500px" h="200px"
           >
             <Center>
               <Image src={nodelogo} w="50px" />
@@ -201,9 +201,8 @@ const Skills = ({ skillRef }) => {
               <Text color="white">3 years experience</Text>
             </Box>
           </Box> */}
-          </Carousel>
-        </Provider>
-      </Box>
+        </Carousel>
+      </Provider>
     </Box>
   );
 };

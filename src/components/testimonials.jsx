@@ -42,7 +42,11 @@ const Testimonials = ({ honorRef }) => {
             was ready to take a new task and was online for discussions."
           </Text>
           <Flex my="30px">
-            <Image w="20%" src={avatar} />
+            <Image
+              w="20%"
+              h={{ base: "80px", sm: "20%", lg: "20%", lg: "20%" }}
+              src={avatar}
+            />
             <Box ml="10px" mt="20px">
               <Text color="#e6e6e6">Karalina</Text>
               <Text fontSize="sm" color="#999999">
@@ -75,7 +79,11 @@ const Testimonials = ({ honorRef }) => {
             niche !"
           </Text>
           <Flex mt="80px">
-            <Image w="20%" src={avatar} />
+            <Image
+              w="20%"
+              h={{ base: "80px", sm: "20%", lg: "20%", lg: "20%" }}
+              src={avatar}
+            />
             <Box ml="10px" mt="20px">
               <Text color="white">Dowell Research</Text>
               <Text fontSize="sm" color="#999999">

@@ -33,7 +33,7 @@ const Certifications = ({ CertificateRef }) => {
           <Box ml="auto" mr="auto">
             <Center>
               <Image
-                w={{ base: "200px", sm: "400px", md: "400px", lg: "500px" }}
+                w={{ base: "250px", sm: "400px", md: "400px", lg: "500px" }}
                 src={pythoncert}
               />
             </Center>
@@ -61,7 +61,7 @@ const Certifications = ({ CertificateRef }) => {
           <Box ml="auto" mr="auto">
             <Center>
               <Image
-                w={{ base: "200px", sm: "400px", md: "400px", lg: "500px" }}
+                w={{ base: "250px", sm: "400px", md: "400px", lg: "500px" }}
                 src={djangocert}
               />
             </Center>
