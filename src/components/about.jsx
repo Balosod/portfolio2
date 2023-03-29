@@ -19,7 +19,7 @@ const About = ({ aboutRef }) => {
   return (
     <Box
       bg="#262626"
-      mt={{ base: "10px", lg: "50px" }}
+      mt={{ base: "0px", lg: "50px" }}
       p={{ base: "15px", lg: "70px" }}
       display="flex"
       ref={aboutRef}
