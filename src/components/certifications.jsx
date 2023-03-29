@@ -25,10 +25,10 @@ const Certifications = ({ CertificateRef }) => {
           p="20px"
           bg="#262626"
           borderRadius="20px"
-          w={{ base: "100%", sm: "450px", md: "450px", lg: "30%" }}
+          w={{ base: "250px", sm: "400px", md: "450px", lg: "30%" }}
           mb={{ base: "50px", lg: "0px" }}
-          mr={{ base: "0px", sm: "auto", md: "30px", lg: "25px" }}
-          ml={{ base: "0px", sm: "auto", md: "0px", lg: "0px" }}
+          mr={{ base: "auto", sm: "auto", md: "50px", lg: "25px" }}
+          ml={{ base: "auto", sm: "auto", md: "0px", lg: "0px" }}
         >
           <Box ml="auto" mr="auto">
             <Image src={pythoncert} />
@@ -47,7 +47,7 @@ const Certifications = ({ CertificateRef }) => {
           p="20px"
           bg="#262626"
           borderRadius="20px"
-          w={{ base: "100%", sm: "450px", md: "450px", lg: "30%" }}
+          w={{ base: "250px", sm: "400px", md: "450px", lg: "30%" }}
           mb={{ base: "50px", lg: "0px" }}
           ml={{ base: "auto", sm: "auto", md: "auto", lg: "0px" }}
           mr={{ base: "auto", sm: "auto", md: "auto", lg: "0px" }}

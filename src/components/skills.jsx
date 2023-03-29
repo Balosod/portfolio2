@@ -54,7 +54,13 @@ const Skills = ({ skillRef }) => {
         </Box>
 
         <Carousel gap={50}>
-          <Box borderRadius="10px" pt="40px" bg="#262626" w="500px" h="200px">
+          <Box
+            borderRadius="10px"
+            pt="40px"
+            bg="#262626"
+            w={{ base: "300px", sm: "400px", md: "450px", lg: "500px" }}
+            h="200px"
+          >
             <Center>
               <Image src={pythonlogo} w="50px" />
             </Center>
