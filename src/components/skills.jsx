@@ -83,7 +83,6 @@ const Skills = ({ skillRef }) => {
               <Text fontSize="3xl" color="white">
                 Python
               </Text>
-              <Text color="white">3 years experience</Text>
             </Box>
           </Box>
           <Box
@@ -103,7 +102,6 @@ const Skills = ({ skillRef }) => {
               <Text fontSize="3xl" color="white">
                 Django
               </Text>
-              <Text color="white">3 years experience</Text>
             </Box>
           </Box>
           <Box
@@ -123,7 +121,6 @@ const Skills = ({ skillRef }) => {
               <Text fontSize="3xl" color="white">
                 JavaScript
               </Text>
-              <Text color="white">3 years experience</Text>
             </Box>
           </Box>
           <Box borderRadius="10px" pt="40px" bg="#262626" w="400px" h="200px">
@@ -135,7 +132,6 @@ const Skills = ({ skillRef }) => {
               <Text fontSize="3xl" color="white">
                 Node
               </Text>
-              <Text color="white">3 years experience</Text>
             </Box>
           </Box>
           <Box borderRadius="10px" pt="40px" bg="#262626" w="400px" h="200px">
@@ -159,7 +155,6 @@ const Skills = ({ skillRef }) => {
               <Text fontSize="3xl" color="white">
                 Flask
               </Text>
-              <Text color="white">3 years experience</Text>
             </Box>
           </Box>
           <Box borderRadius="10px" pt="40px" bg="#262626" w="400px" h="200px">
@@ -171,7 +166,6 @@ const Skills = ({ skillRef }) => {
               <Text fontSize="3xl" color="white">
                 Express
               </Text>
-              <Text color="white">3 years experience</Text>
             </Box>
           </Box>
           <Box borderRadius="10px" pt="40px" bg="#262626" w="400px" h="200px">
@@ -183,7 +177,6 @@ const Skills = ({ skillRef }) => {
               <Text fontSize="3xl" color="white">
                 Chakra
               </Text>
-              <Text color="white">3 years experience</Text>
             </Box>
           </Box>
           <Box borderRadius="10px" pt="40px" bg="#262626" w="400px" h="200px">
@@ -195,7 +188,6 @@ const Skills = ({ skillRef }) => {
               <Text fontSize="3xl" color="white">
                 HTML
               </Text>
-              <Text color="white">3 years experience</Text>
             </Box>
           </Box>
           <Box borderRadius="10px" pt="40px" bg="#262626" w="400px" h="200px">
@@ -207,7 +199,6 @@ const Skills = ({ skillRef }) => {
               <Text fontSize="3xl" color="white">
                 CSS
               </Text>
-              <Text color="white">3 years experience</Text>
             </Box>
           </Box>
         </Carousel>
