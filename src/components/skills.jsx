@@ -25,10 +25,10 @@ const Skills = ({ skillRef }) => {
         Skills
       </Text>
       <Text fontSize="sm" color="#e6e6e6">
-        Here are some of my skills.
+        Here are some of my skills12
       </Text>
-      <Box p="10px">
-        <Provider ml="auto" mr="100px">
+      <Box p="50px">
+        <Provider>
           <Box mb="30px">
             <RightButton
               float="right"
