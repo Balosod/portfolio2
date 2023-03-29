@@ -26,7 +26,7 @@ const Certifications = ({ CertificateRef }) => {
           borderRadius="20px"
           w={{ base: "250px", sm: "400px", md: "250px", lg: "500px" }}
           mb={{ base: "50px", lg: "0px" }}
-          mr={{ base: "auto", sm: "auto", md: "50px", lg: "25px" }}
+          mr={{ base: "auto", sm: "auto", md: "10px", lg: "25px" }}
           ml={{ base: "auto", sm: "auto", md: "0px", lg: "0px" }}
         >
           <Box ml="auto" mr="auto">
@@ -82,7 +82,7 @@ const Certifications = ({ CertificateRef }) => {
           borderRadius="20px"
           w={{ base: "250px", sm: "400px", md: "250px", lg: "500px" }}
           mb={{ base: "50px", lg: "0px" }}
-          ml={{ base: "auto", sm: "auto", md: "50px", lg: "25px" }}
+          ml={{ base: "auto", sm: "auto", md: "10px", lg: "25px" }}
           mr={{ base: "auto", sm: "auto", md: "auto", lg: "0px" }}
         >
           <Box ml="auto" mr="auto">
