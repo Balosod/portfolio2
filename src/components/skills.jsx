@@ -19,6 +19,7 @@ import {
 
 const Skills = ({ skillRef }) => {
   return (
+    //
     <Box p={{ base: "15px", lg: "70px" }} bg="black" ref={skillRef}>
       <Text fontSize="3xl" color="#4da6ff" mt={{ base: "20px", lg: "0px" }}>
         Skills
@@ -26,77 +27,97 @@ const Skills = ({ skillRef }) => {
       <Text fontSize="sm" color="#e6e6e6">
         Here are some of my skills
       </Text>
-      <Provider>
-        <Box mb="30px">
-          <RightButton
-            float="right"
-            w="5px"
-            h="30px"
-            ml="10px"
-            borderRadius="100%"
-            customIcon={<AiOutlineArrowRight />}
-            bgColor="black"
-            textColor="white"
-            _hover={{ bgColor: "black", textColor: "white" }}
-          />
+      <Box ml="10px" mr="10px">
+        <Provider ml="auto" mr="100px">
+          <Box mb="30px">
+            <RightButton
+              float="right"
+              w="5px"
+              h="30px"
+              ml="10px"
+              borderRadius="100%"
+              customIcon={<AiOutlineArrowRight />}
+              bgColor="black"
+              textColor="white"
+              _hover={{ bgColor: "black", textColor: "white" }}
+            />
 
-          <LeftButton
-            float="right"
-            w="5px"
-            h="30px"
-            ml="10px"
-            borderRadius="100%"
-            customIcon={<AiOutlineArrowLeft />}
-            bgColor="black"
-            textColor="white"
-            _hover={{ bgColor: "black", textColor: "white" }}
-          />
-        </Box>
+            <LeftButton
+              float="right"
+              w="5px"
+              h="30px"
+              ml="10px"
+              borderRadius="100%"
+              customIcon={<AiOutlineArrowLeft />}
+              bgColor="black"
+              textColor="white"
+              _hover={{ bgColor: "black", textColor: "white" }}
+            />
+          </Box>
 
-        <Carousel gap={50}>
-          <Box
-            borderRadius="10px"
-            pt="40px"
-            bg="#262626"
-            w={{ base: "300px", sm: "400px", md: "450px", lg: "500px" }}
-            h="200px"
+          <Carousel gap={50}>
+            <Box
+              borderRadius="10px"
+              pt="40px"
+              bg="#262626"
+              w={{ base: "300px", sm: "400px", md: "450px", lg: "500px" }}
+              h="200px"
+              mr={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
+              ml={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
+            >
+              <Center>
+                <Image src={pythonlogo} w="50px" />
+              </Center>
+
+              <Box textAlign="center">
+                <Text fontSize="3xl" color="white">
+                  Python
+                </Text>
+                <Text color="white">3 years experience</Text>
+              </Box>
+            </Box>
+            <Box
+              borderRadius="10px"
+              pt="40px"
+              bg="#262626"
+              w="500px"
+              h="200px"
+              mr={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
+              ml={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
+            >
+              <Center>
+                <Image src={djangologo} w="50px" />
+              </Center>
+
+              <Box textAlign="center">
+                <Text fontSize="3xl" color="white">
+                  Django
+                </Text>
+                <Text color="white">3 years experience</Text>
+              </Box>
+            </Box>
+            <Box
+              borderRadius="10px"
+              pt="40px"
+              bg="#262626"
+              w="500px"
+              h="200px"
+              mr={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
+              ml={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
+            >
+              <Center>
+                <Image src={javascriptlogo} w="50px" />
+              </Center>
+
+              <Box textAlign="center">
+                <Text fontSize="3xl" color="white">
+                  JavaScript
+                </Text>
+                <Text color="white">3 years experience</Text>
+              </Box>
+            </Box>
+            {/* <Box borderRadius="10px" pt="40px" bg="#262626" w="500px" h="200px"
           >
-            <Center>
-              <Image src={pythonlogo} w="50px" />
-            </Center>
-
-            <Box textAlign="center">
-              <Text fontSize="3xl" color="white">
-                Python
-              </Text>
-              <Text color="white">3 years experience</Text>
-            </Box>
-          </Box>
-          <Box borderRadius="10px" pt="40px" bg="#262626" w="500px" h="200px">
-            <Center>
-              <Image src={djangologo} w="50px" />
-            </Center>
-
-            <Box textAlign="center">
-              <Text fontSize="3xl" color="white">
-                Django
-              </Text>
-              <Text color="white">3 years experience</Text>
-            </Box>
-          </Box>
-          <Box borderRadius="10px" pt="40px" bg="#262626" w="500px" h="200px">
-            <Center>
-              <Image src={javascriptlogo} w="50px" />
-            </Center>
-
-            <Box textAlign="center">
-              <Text fontSize="3xl" color="white">
-                JavaScript
-              </Text>
-              <Text color="white">3 years experience</Text>
-            </Box>
-          </Box>
-          <Box borderRadius="10px" pt="40px" bg="#262626" w="500px" h="200px">
             <Center>
               <Image src={nodelogo} w="50px" />
             </Center>
@@ -179,9 +200,10 @@ const Skills = ({ skillRef }) => {
               </Text>
               <Text color="white">3 years experience</Text>
             </Box>
-          </Box>
-        </Carousel>
-      </Provider>
+          </Box> */}
+          </Carousel>
+        </Provider>
+      </Box>
     </Box>
   );
 };
