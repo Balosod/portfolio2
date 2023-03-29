@@ -158,9 +158,11 @@ function App() {
                 </Text>
               </Box>
               <Box>
-                <Button mb="30px" colorScheme="blue">
-                  Resume
-                </Button>
+                <Link href={resume} download="Balogun Sodiq CV">
+                  <Button mb="30px" colorScheme="blue">
+                    Resume
+                  </Button>
+                </Link>
               </Box>
             </VStack>
           </Box>
