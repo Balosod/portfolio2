@@ -28,18 +28,23 @@ function App() {
 
   const handleAboutClick = () => {
     aboutRef.current?.scrollIntoView({ behavior: "smooth" });
+    changeDisplay(false);
   };
   const handleSkillClick = () => {
     skillRef.current?.scrollIntoView({ behavior: "smooth" });
+    changeDisplay(false);
   };
   const handleHonorClick = () => {
     honorRef.current?.scrollIntoView({ behavior: "smooth" });
+    changeDisplay(false);
   };
   const handleCertficateClick = () => {
     CertificateRef.current?.scrollIntoView({ behavior: "smooth" });
+    changeDisplay(false);
   };
   const handleContactClick = () => {
     ContactRef.current?.scrollIntoView({ behavior: "smooth" });
+    changeDisplay(false);
   };
   let [display, changeDisplay] = useState(false);
   return (
@@ -112,7 +117,16 @@ function App() {
           </Flex>
         </Box>
 
-        <Box mt="0" mb="0" bg="black" display={{ base: "block", lg: "none" }}>
+        <Box
+          mt="0"
+          mb="0"
+          bg="black"
+          display={{ base: "block", lg: "none" }}
+          position="absolute"
+          w="100%"
+          mr="auto"
+          ml="auto"
+        >
           <Box display={display ? "block" : "none"}>
             <Box p="4" align="right">
               <AiOutlineClose
