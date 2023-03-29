@@ -1,4 +1,4 @@
-import { Box, Image, Text } from "@chakra-ui/react";
+import { Box, Image, Text, Center } from "@chakra-ui/react";
 import pythoncert from "./images/pythoncert.jpg";
 import djangocert from "./images/djangocert.jpg";
 
@@ -31,12 +31,13 @@ const Certifications = ({ CertificateRef }) => {
           ml={{ base: "auto", sm: "auto", md: "0px", lg: "0px" }}
         >
           <Box ml="auto" mr="auto">
-            <Image
-              w={{ base: "200px", sm: "400px", md: "400px", lg: "500px" }}
-              ml="auto"
-              mr="auto"
-              src={pythoncert}
-            />
+            <Center>
+              <Image
+                w={{ base: "200px", sm: "400px", md: "400px", lg: "500px" }}
+                src={pythoncert}
+              />
+            </Center>
+
             <Text color="#e6e6e6" fontSize="2xl" mt="10px">
               Bootcamp Zero to Hero in Python
             </Text>
@@ -58,12 +59,13 @@ const Certifications = ({ CertificateRef }) => {
           mr={{ base: "auto", sm: "auto", md: "auto", lg: "0px" }}
         >
           <Box ml="auto" mr="auto">
-            <Image
-              ml="auto"
-              mr="auto"
-              w={{ base: "200px", sm: "400px", md: "400px", lg: "500px" }}
-              src={djangocert}
-            />
+            <Center>
+              <Image
+                w={{ base: "200px", sm: "400px", md: "400px", lg: "500px" }}
+                src={djangocert}
+              />
+            </Center>
+
             <Text color="#e6e6e6" fontSize="2xl" mt="10px">
               Django 4 and Python FullStack
             </Text>
