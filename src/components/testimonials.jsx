@@ -21,7 +21,7 @@ const Testimonials = ({ honorRef }) => {
       >
         <Box
           p="20px"
-          w={{ base: "250px", sm: "400px", md: "450px", lg: "30%" }}
+          w={{ base: "250px", sm: "400px", md: "450px", lg: "450px" }}
           bg="black"
           mb={{ base: "50px", lg: "0px" }}
           borderRadius="10px"
@@ -41,15 +41,15 @@ const Testimonials = ({ honorRef }) => {
             "Balogun presented himself as good and responsible developer, always
             was ready to take a new task and was online for discussions."
           </Text>
-          <Flex my="30px">
+          <Flex mt={{ base: "55px", md: "50px", lg: "70px" }}>
             <Image
-              w="20%"
-              h={{ base: "80px", sm: "20%", lg: "20%", lg: "20%" }}
+              w={{ base: "80px", md: "70px", lg: "70px" }}
+              h={{ base: "80px", sm: "20%", md: "20%", lg: "20%", lg: "20%" }}
               src={avatar}
             />
             <Box ml="10px" mt="20px">
-              <Text color="#e6e6e6">Karalina</Text>
-              <Text fontSize="sm" color="#999999">
+              <Text color="#e6e6e6">Content Office</Text>
+              <Text fontSize={{ base: "10px", sm: "sm" }} color="#999999">
                 Backend developer(NodeJs,Firebase)
               </Text>
             </Box>
@@ -57,7 +57,7 @@ const Testimonials = ({ honorRef }) => {
         </Box>
         <Box
           p="20px"
-          w={{ base: "250px", sm: "400px", md: "450px", lg: "30%" }}
+          w={{ base: "250px", sm: "400px", md: "450px", lg: "450px" }}
           bg="black"
           mb={{ base: "50px", lg: "0px" }}
           mr={{ base: "auto", sm: "auto", md: "0px", lg: "0px" }}
@@ -78,15 +78,15 @@ const Testimonials = ({ honorRef }) => {
             "Great working experience with this seller !! He is great in his
             niche !"
           </Text>
-          <Flex mt="80px">
+          <Flex mt={{ base: "55px", md: "100px", lg: "90px" }}>
             <Image
-              w="20%"
-              h={{ base: "80px", sm: "20%", lg: "20%", lg: "20%" }}
+              w={{ base: "80px", md: "70px" }}
+              h={{ base: "80px", sm: "20%", md: "20%", lg: "20%", lg: "20%" }}
               src={avatar}
             />
             <Box ml="10px" mt="20px">
               <Text color="white">Dowell Research</Text>
-              <Text fontSize="sm" color="#999999">
+              <Text fontSize={{ base: "10px", sm: "sm" }} color="#999999">
                 Backend developer(Django)
               </Text>
             </Box>

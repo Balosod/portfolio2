@@ -25,7 +25,7 @@ const Skills = ({ skillRef }) => {
         Skills
       </Text>
       <Text fontSize="sm" color="#e6e6e6">
-        Here are some of my skills1234567
+        Here are some of my skills
       </Text>
 
       <Provider>
