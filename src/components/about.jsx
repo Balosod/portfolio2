@@ -33,9 +33,8 @@ const About = ({ aboutRef }) => {
         </Heading>
 
         <Text color="#e6e6e6">
-          I'm a software developer, good in working with both Front-end and
-          Back-end side of a website, I worked with React, JavaScript, Express,
-          Node, Python, Flask, FastApi, Django and SQL.
+          I'm a software developer, specialized in Frontend and Backend of web
+          development.
         </Text>
         <Text mt="20px" color="#e6e6e6">
           Let's get in touch
