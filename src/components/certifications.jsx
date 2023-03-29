@@ -25,14 +25,14 @@ const Certifications = ({ CertificateRef }) => {
           p="20px"
           bg="#262626"
           borderRadius="20px"
-          w={{ base: "250px", sm: "400px", md: "450px", lg: "30%" }}
+          w={{ base: "250px", sm: "400px", md: "400px", lg: "500px" }}
           mb={{ base: "50px", lg: "0px" }}
           mr={{ base: "auto", sm: "auto", md: "50px", lg: "25px" }}
           ml={{ base: "auto", sm: "auto", md: "0px", lg: "0px" }}
         >
           <Box ml="auto" mr="auto">
             <Image
-              w={{ base: "200px", sm: "400px", md: "450px", lg: "30%" }}
+              w={{ base: "200px", sm: "400px", md: "400px", lg: "500px" }}
               ml="auto"
               mr="auto"
               src={pythoncert}
@@ -52,7 +52,7 @@ const Certifications = ({ CertificateRef }) => {
           p="20px"
           bg="#262626"
           borderRadius="20px"
-          w={{ base: "250px", sm: "200px", md: "450px", lg: "30%" }}
+          w={{ base: "250px", sm: "200px", md: "400px", lg: "500px" }}
           mb={{ base: "50px", lg: "0px" }}
           ml={{ base: "auto", sm: "auto", md: "auto", lg: "0px" }}
           mr={{ base: "auto", sm: "auto", md: "auto", lg: "0px" }}
@@ -61,7 +61,7 @@ const Certifications = ({ CertificateRef }) => {
             <Image
               ml="auto"
               mr="auto"
-              w={{ base: "200px", sm: "200px", md: "450px", lg: "30%" }}
+              w={{ base: "200px", sm: "200px", md: "400px", lg: "500px" }}
               src={djangocert}
             />
             <Text color="#e6e6e6" fontSize="2xl" mt="10px">
