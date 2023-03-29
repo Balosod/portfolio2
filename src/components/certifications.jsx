@@ -31,7 +31,10 @@ const Certifications = ({ CertificateRef }) => {
           ml={{ base: "auto", sm: "auto", md: "0px", lg: "0px" }}
         >
           <Box ml="auto" mr="auto">
-            <Image src={pythoncert} />
+            <Image
+              w={{ base: "250px", sm: "400px", md: "450px", lg: "30%" }}
+              src={pythoncert}
+            />
             <Text color="#e6e6e6" fontSize="2xl" mt="10px">
               Bootcamp Zero to Hero in Python
             </Text>
@@ -53,7 +56,10 @@ const Certifications = ({ CertificateRef }) => {
           mr={{ base: "auto", sm: "auto", md: "auto", lg: "0px" }}
         >
           <Box ml="auto" mr="auto">
-            <Image src={djangocert} />
+            <Image
+              w={{ base: "250px", sm: "400px", md: "450px", lg: "30%" }}
+              src={djangocert}
+            />
             <Text color="#e6e6e6" fontSize="2xl" mt="10px">
               Django 4 and Python FullStack
             </Text>
