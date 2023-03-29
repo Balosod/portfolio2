@@ -143,7 +143,6 @@ const Skills = ({ skillRef }) => {
               <Text fontSize="3xl" color="white">
                 React
               </Text>
-              <Text color="white">2 years experience</Text>
             </Box>
           </Box>
           <Box borderRadius="10px" pt="40px" bg="#262626" w="400px" h="200px">
