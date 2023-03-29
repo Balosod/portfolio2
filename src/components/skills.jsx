@@ -25,9 +25,9 @@ const Skills = ({ skillRef }) => {
         Skills
       </Text>
       <Text fontSize="sm" color="#e6e6e6">
-        Here are some of my skills12
+        Here are some of my skills123
       </Text>
-      <Box p="50px">
+      <Box pr="8px">
         <Provider>
           <Box mb="30px">
             <RightButton
@@ -60,7 +60,7 @@ const Skills = ({ skillRef }) => {
               borderRadius="10px"
               pt="40px"
               bg="#262626"
-              w={{ base: "300px", sm: "400px", md: "450px", lg: "500px" }}
+              w="500px"
               h="200px"
               mr={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
               ml={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
