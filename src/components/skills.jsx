@@ -25,7 +25,7 @@ const Skills = ({ skillRef }) => {
         Skills
       </Text>
       <Text fontSize="sm" color="#e6e6e6">
-        Here are some of my skills123
+        Here are some of my skills1234
       </Text>
       <Box pr="8px">
         <Provider>
@@ -60,7 +60,7 @@ const Skills = ({ skillRef }) => {
               borderRadius="10px"
               pt="40px"
               bg="#262626"
-              w="500px"
+              w="300px"
               h="200px"
               mr={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
               ml={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
@@ -80,7 +80,7 @@ const Skills = ({ skillRef }) => {
               borderRadius="10px"
               pt="40px"
               bg="#262626"
-              w="500px"
+              w="300px"
               h="200px"
               mr={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
               ml={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
@@ -100,7 +100,7 @@ const Skills = ({ skillRef }) => {
               borderRadius="10px"
               pt="40px"
               bg="#262626"
-              w="500px"
+              w="300px"
               h="200px"
               mr={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
               ml={{ base: "auto", sm: "auto", md: "auto", lg: "auto" }}
