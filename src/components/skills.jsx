@@ -25,9 +25,9 @@ const Skills = ({ skillRef }) => {
         Skills
       </Text>
       <Text fontSize="sm" color="#e6e6e6">
-        Here are some of my skills
+        Here are some of my skills.
       </Text>
-      <Box ml="10px" mr="10px">
+      <Box p="10px">
         <Provider ml="auto" mr="100px">
           <Box mb="30px">
             <RightButton
