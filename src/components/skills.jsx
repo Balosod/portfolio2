@@ -25,7 +25,7 @@ const Skills = ({ skillRef }) => {
         Skills
       </Text>
       <Text fontSize="sm" color="#e6e6e6">
-        Here are some of my skills12345
+        Here are some of my skills123456
       </Text>
 
       <Provider>
@@ -36,10 +36,15 @@ const Skills = ({ skillRef }) => {
             h="30px"
             ml="10px"
             borderRadius="100%"
+            borderColor="black"
             customIcon={<AiOutlineArrowRight />}
             bgColor="black"
             textColor="white"
-            _hover={{ bgColor: "black", textColor: "white" }}
+            _hover={{
+              bgColor: "black",
+              borderColor: "black",
+              textColor: "white",
+            }}
           />
 
           <LeftButton
@@ -48,14 +53,19 @@ const Skills = ({ skillRef }) => {
             h="30px"
             ml="10px"
             borderRadius="100%"
+            borderColor="black"
             customIcon={<AiOutlineArrowLeft />}
             bgColor="black"
             textColor="white"
-            _hover={{ bgColor: "black", textColor: "white" }}
+            _hover={{
+              bgColor: "black",
+              borderColor: "black",
+              textColor: "white",
+            }}
           />
         </Box>
 
-        <Carousel gap={5}>
+        <Carousel gap={10}>
           <Box
             borderRadius="10px"
             pt="40px"
@@ -116,8 +126,7 @@ const Skills = ({ skillRef }) => {
               <Text color="white">3 years experience</Text>
             </Box>
           </Box>
-          {/* <Box borderRadius="10px" pt="40px" bg="#262626" w="500px" h="200px"
-          >
+          <Box borderRadius="10px" pt="40px" bg="#262626" w="400px" h="200px">
             <Center>
               <Image src={nodelogo} w="50px" />
             </Center>
@@ -129,7 +138,7 @@ const Skills = ({ skillRef }) => {
               <Text color="white">3 years experience</Text>
             </Box>
           </Box>
-          <Box borderRadius="10px" pt="40px" bg="#262626" w="500px" h="200px">
+          <Box borderRadius="10px" pt="40px" bg="#262626" w="400px" h="200px">
             <Center>
               <Image src={reactlogo} w="50px" />
             </Center>
@@ -141,7 +150,7 @@ const Skills = ({ skillRef }) => {
               <Text color="white">2 years experience</Text>
             </Box>
           </Box>
-          <Box borderRadius="10px" pt="40px" bg="#262626" w="500px" h="200px">
+          <Box borderRadius="10px" pt="40px" bg="#262626" w="400px" h="200px">
             <Center>
               <Image src={flasklogo} w="50px" />
             </Center>
@@ -153,7 +162,7 @@ const Skills = ({ skillRef }) => {
               <Text color="white">3 years experience</Text>
             </Box>
           </Box>
-          <Box borderRadius="10px" pt="40px" bg="#262626" w="500px" h="200px">
+          <Box borderRadius="10px" pt="40px" bg="#262626" w="400px" h="200px">
             <Center>
               <Image src={expresslogo} w="50px" />
             </Center>
@@ -165,7 +174,7 @@ const Skills = ({ skillRef }) => {
               <Text color="white">3 years experience</Text>
             </Box>
           </Box>
-          <Box borderRadius="10px" pt="40px" bg="#262626" w="500px" h="200px">
+          <Box borderRadius="10px" pt="40px" bg="#262626" w="400px" h="200px">
             <Center>
               <Image src={chakralogo} w="50px" />
             </Center>
@@ -177,7 +186,7 @@ const Skills = ({ skillRef }) => {
               <Text color="white">3 years experience</Text>
             </Box>
           </Box>
-          <Box borderRadius="10px" pt="40px" bg="#262626" w="500px" h="200px">
+          <Box borderRadius="10px" pt="40px" bg="#262626" w="400px" h="200px">
             <Center>
               <Image src={htmllogo} w="50px" />
             </Center>
@@ -189,7 +198,7 @@ const Skills = ({ skillRef }) => {
               <Text color="white">3 years experience</Text>
             </Box>
           </Box>
-          <Box borderRadius="10px" pt="40px" bg="#262626" w="500px" h="200px">
+          <Box borderRadius="10px" pt="40px" bg="#262626" w="400px" h="200px">
             <Center>
               <Image src={csslogo} w="50px" />
             </Center>
@@ -200,7 +209,7 @@ const Skills = ({ skillRef }) => {
               </Text>
               <Text color="white">3 years experience</Text>
             </Box>
-          </Box> */}
+          </Box>
         </Carousel>
       </Provider>
     </Box>
