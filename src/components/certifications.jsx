@@ -105,7 +105,7 @@ const Certifications = ({ CertificateRef }) => {
             </Text>
           </Box>
         </Box>
-        <Box
+        {/* <Box
           p="20px"
           bg="#262626"
           borderRadius="20px"
@@ -132,7 +132,7 @@ const Certifications = ({ CertificateRef }) => {
               Mar 2023
             </Text>
           </Box>
-        </Box>
+        </Box> */}
       </Box>
     </Box>
   );
