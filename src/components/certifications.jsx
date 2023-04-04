@@ -2,6 +2,7 @@ import { Box, Image, Text, Center } from "@chakra-ui/react";
 import pythoncert from "./images/pythoncert.jpg";
 import djangocert from "./images/djangocert.jpg";
 import nodecert from "./images/nodecert.png";
+import node2cert from "./images/node2cert.png";
 
 const Certifications = ({ CertificateRef }) => {
   return (
@@ -98,6 +99,34 @@ const Certifications = ({ CertificateRef }) => {
             </Text>
             <Text fontSize="sm" color="#e6e6e6">
               Issue by DevTown
+            </Text>
+            <Text fontSize="sm" color="#999999">
+              Mar 2023
+            </Text>
+          </Box>
+        </Box>
+        <Box
+          p="20px"
+          bg="#262626"
+          borderRadius="20px"
+          w={{ base: "250px", sm: "400px", md: "250px", lg: "500px" }}
+          mb={{ base: "50px", lg: "0px" }}
+          ml={{ base: "auto", sm: "auto", md: "10px", lg: "25px" }}
+          mr={{ base: "auto", sm: "auto", md: "auto", lg: "0px" }}
+        >
+          <Box ml="auto" mr="auto">
+            <Center>
+              <Image
+                w={{ base: "250px", sm: "400px", md: "250px", lg: "500px" }}
+                src={node2cert}
+              />
+            </Center>
+
+            <Text color="#e6e6e6" fontSize="20px" mt="10px">
+              Backend Web Development using JavaScript, Node.js and Express
+            </Text>
+            <Text fontSize="sm" color="#e6e6e6">
+              Issue by Microsoft
             </Text>
             <Text fontSize="sm" color="#999999">
               Mar 2023
