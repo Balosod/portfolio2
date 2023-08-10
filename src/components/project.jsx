@@ -1,7 +1,6 @@
 import { Box, Image, Text, Center, Link, Button } from "@chakra-ui/react";
 import multiform from "./images/multiform.png";
 import urlshortner from "./images/urlshortner.png";
-// import urlshortner2 from "./images/urlshortners.jpg";
 import phoneflag from "./images/phoneflag.png"
 
 
