@@ -21,10 +21,10 @@ const Skills = ({ skillRef }) => {
   return (
     //
     <Box p={{ base: "15px", lg: "70px" }} bg="black" ref={skillRef}>
-      <Text fontSize="3xl" color="#4da6ff" mt={{ base: "20px", lg: "0px" }}>
+      <Text fontSize="3xl" color="#4da6ff" textAlign={{base:"center", sm:"center", md:"left"}} mt={{ base: "20px", lg: "0px" }}>
         Skills
       </Text>
-      <Text fontSize="sm" color="#e6e6e6">
+      <Text fontSize="sm" textAlign={{base:"center", sm:"center", md:"left"}} color="#e6e6e6">
         Here are some of my skills
       </Text>
 

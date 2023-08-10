@@ -25,10 +25,10 @@ const About = ({ aboutRef }) => {
       ref={aboutRef}
       flexDirection={{ base: "column", lg: "row" }}
     >
-      <Box w={{ base: "100%", lg: "50%" }}>
+      <Box w={{ base: "100%", lg: "50%" }} textAlign={{base:"center", sm:"center", md:"left"}}>
         <Text color="white">Hi, I'm</Text>
         <Heading color="#4da6ff">Balogun Sodiq</Heading>
-        <Heading mb="20px" fontSize="2xl" color="white">
+        <Heading mb="20px"  fontSize="2xl" color="white">
           FullStack Developer
         </Heading>
 
@@ -39,7 +39,7 @@ const About = ({ aboutRef }) => {
         <Text mt="20px" color="#e6e6e6">
           Let's get in touch
         </Text>
-        <HStack mt="20px" mb={{ base: "50px", lg: "0px" }}>
+        <HStack mt="20px" justify={{ base: 'center', sm: 'center', md: 'flex-start' }} mb={{ base: "50px", lg: "0px" }}>
           <Link href="mailto:balosod37@gmail.com" isExternal>
             {" "}
             <Icon boxSize={6} as={CgMail} color="#4da6ff" />

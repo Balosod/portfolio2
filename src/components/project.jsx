@@ -7,12 +7,12 @@ import phoneflag from "./images/phoneflag.png"
 const Project = ({projectRef}) =>{
     return(
         <Box p={{ base: "15px", lg: "70px" }} bg="#262626" ref={projectRef}>
-        <Text fontSize="3xl" color="#4da6ff" mt={{ base: "20px", lg: "0px" }}>
+        <Text fontSize="3xl" textAlign={{base:"center", sm:"center", md:"left"}} color="#4da6ff" mt={{ base: "20px", lg: "0px" }}>
           Projects
         </Text>
   
         {/* color={{ base: "red", sm: "yellow", md: "blue", lg: "green" }} */}
-        <Text fontSize="sm" color="#e6e6e6">
+        <Text fontSize="sm" textAlign={{base:"center", sm:"center", md:"left"}} color="#e6e6e6">
           Here are some of my project
         </Text>
         <Box
