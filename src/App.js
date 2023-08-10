@@ -19,9 +19,11 @@ import {
   Image,
   Text,
 } from "@chakra-ui/react";
+import Project from "./components/project";
 function App() {
   const aboutRef = useRef(null);
   const skillRef = useRef(null);
+  const projectRef = useRef(null);
   const honorRef = useRef(null);
   const CertificateRef = useRef(null);
   const ContactRef = useRef(null);
@@ -32,6 +34,10 @@ function App() {
   };
   const handleSkillClick = () => {
     skillRef.current?.scrollIntoView({ behavior: "smooth" });
+    changeDisplay(false);
+  };
+  const handleProjectClick = () => {
+    projectRef.current?.scrollIntoView({ behavior: "smooth" });
     changeDisplay(false);
   };
   const handleHonorClick = () => {
@@ -70,6 +76,11 @@ function App() {
             <Box>
               <Text onClick={handleSkillClick} cursor="pointer" color="white">
                 Skills
+              </Text>
+            </Box>
+            <Box>
+              <Text onClick={handleProjectClick} cursor="pointer" color="white">
+                Projects
               </Text>
             </Box>
             <Box>
@@ -149,6 +160,11 @@ function App() {
                 </Text>
               </Box>
               <Box>
+                <Text onClick={handleProjectClick} cursor="pointer" color="white">
+                  Projects
+                </Text>
+              </Box>
+              <Box>
                 <Text onClick={handleHonorClick} cursor="pointer" color="white">
                   Honor & Awards
                 </Text>
@@ -189,6 +205,9 @@ function App() {
       {/* Skills */}
       <Skills skillRef={skillRef} />
 
+      {/* Project */}
+      <Project projectRef={projectRef}/>
+
       {/* Testimonials */}
       <Testimonials honorRef={honorRef} />
 
@@ -202,3 +221,5 @@ function App() {
 }
 
 export default App;
+
+// "chakra-ui-carousel": "^1.0.7",

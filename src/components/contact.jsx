@@ -11,7 +11,7 @@ const Contact = ({ handleAboutClick, ContactRef }) => {
   return (
     <Box
       p={{ base: "35px", lg: "70px" }}
-      bg="#262626"
+      bg="black"
       textAlign="center"
       ref={ContactRef}
     >

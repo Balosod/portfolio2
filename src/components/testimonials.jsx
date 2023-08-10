@@ -5,7 +5,7 @@ import { HStack, Box, Icon, Flex, Image, Text } from "@chakra-ui/react";
 
 const Testimonials = ({ honorRef }) => {
   return (
-    <Box p={{ base: "15px", lg: "70px" }} bg="#262626" ref={honorRef}>
+    <Box p={{ base: "15px", lg: "70px" }} bg="black" ref={honorRef}>
       <Text fontSize="3xl" color="#4da6ff" mt={{ base: "20px", lg: "0px" }}>
         Testimonials
       </Text>
@@ -22,7 +22,7 @@ const Testimonials = ({ honorRef }) => {
         <Box
           p="20px"
           w={{ base: "250px", sm: "400px", md: "450px", lg: "450px" }}
-          bg="black"
+          bg="#262626"
           mb={{ base: "50px", lg: "0px" }}
           borderRadius="10px"
           mr={{ base: "auto", sm: "auto", md: "50px", lg: "50px" }}
@@ -58,7 +58,7 @@ const Testimonials = ({ honorRef }) => {
         <Box
           p="20px"
           w={{ base: "250px", sm: "400px", md: "450px", lg: "450px" }}
-          bg="black"
+          bg="#262626"
           mb={{ base: "50px", lg: "0px" }}
           mr={{ base: "auto", sm: "auto", md: "0px", lg: "0px" }}
           ml={{ base: "auto", sm: "auto", md: "0px", lg: "0px" }}
