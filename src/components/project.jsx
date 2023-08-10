@@ -11,7 +11,7 @@ const Project = ({projectRef}) =>{
           Projects
         </Text>
   
-        {/* color={{ base: "red", sm: "yellow", md: "blue", lg: "green" }} */}
+        
         <Text fontSize="sm" textAlign={{base:"center", sm:"center", md:"left"}} color="#e6e6e6">
           Here are some of my projects
         </Text>
