@@ -13,7 +13,7 @@ const Project = ({projectRef}) =>{
   
         {/* color={{ base: "red", sm: "yellow", md: "blue", lg: "green" }} */}
         <Text fontSize="sm" textAlign={{base:"center", sm:"center", md:"left"}} color="#e6e6e6">
-          Here are some of my project
+          Here are some of my projects
         </Text>
         <Box
           justifyContent="center"
