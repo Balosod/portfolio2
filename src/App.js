@@ -148,7 +148,7 @@ function App() {
               />
             </Box>
 
-            <VStack spacing="50px">
+            <VStack spacing="30px">
               <Box>
                 <Text onClick={handleAboutClick} cursor="pointer" color="white">
                   About
